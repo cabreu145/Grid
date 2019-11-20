@@ -1,0 +1,30 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+    /*grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 200px 300px 400px */
+    
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr)); /* responsivo*/
+    
+    
+    
+    /*grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr ;*/
+    
+    /* Sirve para cambiar los flujos de los div*/ 
+    
+    
+}
+.contenedor .div1{
+    background: darkgoldenrod;
+/*
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+*/
+/* grid-column: 2/3;
+grid-row: 2/3; */
+justify-items: start;    
+}
